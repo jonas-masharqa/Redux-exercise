@@ -1,10 +1,18 @@
 import React from 'react'
 import List from './Components/List'
+import Form from './Components/Form'
 
 const App = () => (
   <>
-    <h2>Articles</h2>
-    <List />
+    <div>
+      <h2>Articles</h2>
+      <List />
+    </div>
+    <div>
+      <h2>Add a new article</h2>
+      <Form />
+    </div>
   </>
 )
+
 export default App
